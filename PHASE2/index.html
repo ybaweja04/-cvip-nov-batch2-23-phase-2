@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YASHNA'S PORTFOLIO</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <header>
+        <p>YASHNA’S PORTFOLIO</p>
+        <div class="nav-list">
+            <li id="a" onclick="scrollToElement('1')">ABOUT</li>
+            <li id="b" onclick="scrollToElement('2')">PROJECTS</li>
+            <li id="c" onclick="scrollToElement('3')">SKILLS</li>
+            <li id="d" onclick="scrollToElement('4')">CONTACT</li>
+        </div>
+        <a href="https://drive.google.com/file/d/1CZ--BGp0dhYrGawYd7m0TUnmMrrdbP0e/view?usp=drivesdk"><button
+                id="resume">RESUME</button></a>
+    </header>
+
+    <div class="page1" id="1">
+        <img src="mypic.jpeg" alt="pic">
+        <p>Hello and welcome! I'm YASHNA BAWEJA, a student at AMITY UNIVERSITY with a fervour for web development. This
+            portfolio is a snapshot of my journey into the world of coding and design. Dive in to explore my projects,
+            witness my growth, and join me on this exciting path of becoming a web developer. Let's innovate and create
+            together!</p>
+    </div>
+    <div class="project" id="2">
+        <p>PROJECTS</p>
+        <div class="container">
+            <div class="box" id="box1">
+                <p>Create QR</p>
+                <a href="https://createqr-code.netlify.app/"><button id="page1">Visit page</button></a>
+                <a href="https://github.com/ybaweja04/create-qr"><button id="git1">Github
+                    <i class="fa fa-github" id="link"></i>
+                </button></a>
+            </div>
+            <div class="box" id="box2">
+                <p>To-do List</p>
+                <a href="https://ybaweja04.github.io/todo/"><button id="page2">Visit page</button></a> 
+                <a href="https://github.com/ybaweja04/todo"><button id="git2">Github
+                    <i class="fa fa-github" id="link"></i>
+                </button></a>
+            </div>
+        </div>
+        <div class="container">
+            <div class="box" id="box3">
+                <p>Netflix Clone</p>
+                <a href="https://github.com/ybaweja04/-cvip-nov-batch2-23-phase-1"><button id="git3">Github
+                    <i class="fa fa-github" id="link"></i>
+                </button></a> 
+            </div>
+            <div class="box" id="box4">
+                <p>BMI Calculator</p>
+                <a href="https://github.com/ybaweja04/bmi"><button id="git4">Github
+                    <i class="fa fa-github" id="link"></i>
+                </button></a>
+            </div>
+        </div>
+    </div>
+
+    <div class="skill" id="3">
+        <p>SKILLS</p>
+        <div class="skillbox">
+            <li id="ui">UI/UX</li>
+            <li>Python</li>
+            <li>C, C++ (basic level)</li>
+            <li>HTML</li>
+            <li>CSS (including frameworks)</li>
+            <li>MySQL</li>
+            <li>Javascript</li>
+        </div>
+    </div>
+    <hr>
+    <footer id="4">
+        <a href="https://www.linkedin.com/in/yashna-baweja-098305261/"><i class="fa fa-linkedin" id="linked"></i></a> 
+        <a href="bawejayashna@gmail.com"><i class="fa fa-envelope" id="mail"></i></a>
+        <p>made by YASHNA BAWEJA</p>
+    </footer>
+</body>
+<script src="script.js"></script>
+</html>
